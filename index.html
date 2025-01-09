@@ -4,18 +4,32 @@
 <meta name="viewport" content="width=device-width">
 <style>
   html {
-    max-width: 50ch;
-    margin: 0 auto;
+    align-content: center;
+    margin-inline: auto;
+    max-width: 40ic;
+    min-height: 90%;
+    padding: 0;
   }
-  @media (min-height: 32rem) {
-    html {
-      padding-top: 8rem;
+  body {
+    margin-trim: block;
+    margin: 0;
+    padding-inline: 1ic;
+  }
+  h1, p {
+    margin-block: 1rlh;
+  }
+  @media (max-width: 46ic) {
+    br {
+      display: none;
     }
   }
 
   html {
-    font-size: 125%;
     font-family: system-ui, sans-serif;
+    font-size-adjust: 0.528;
+    font-size-adjust: from-font;
+    font-size: 125%;
+    text-underline-position: from-font right;
   }
   code, pre {
     font-family: ui-monospace, monospace;
@@ -23,40 +37,31 @@
   h1 {
     font-family: ui-rounded, system-ui, sans-serif;
   }
+  abbr {
+    text-decoration: none;
+  }
 
   html {
     background: white;
     color: black;
   }
-  :link, :visited {
-    color: blue;
-  }
+  :link    { color: blue;   }
+  :visited { color: purple; }
   @media (prefers-color-scheme: dark) {
     html {
-      background: #111;
+      background: black;
       color: white;
     }
-    :link, :visited {
-        color: #ff6;
-    }
+    :link    { color: yellow; }
+    :visited { color: gold;   }
   }
 </style>
 <title>hober.github.io</title>
+<h1><a href=https://hober.github.io/ rel=bookmark><code>hober<wbr>.github<wbr>.io</code></a></h1>
 
-<h1><code>hober.github.io</code></h1>
-
-<p>Hi, I’m <a href=http://tess.oconnor.cx/ rel=me>Tess</a>.
-
-<p>I manage the Web Standards &amp; Interoperability team at
-<a href=https://www.apple.com/>Apple</a>.
-I’m our
-<a href=https://w3.org><abbr title="World Wide Web Consortium">W3C</abbr></a>
-<a href=https://www.w3.org/wiki/AdvisoryCommittee><abbr title="Advisory Committee">AC</abbr></a>
-<abbr title=representative>rep</abbr>,
-I sit on the
-<a href=https://www.w3.org/2001/tag/><abbr title="Technical Architecture Group">TAG</abbr></a>,
-and I chair the <a href=https://privacycg.github.io>Privacy <abbr title="Community Group">CG</abbr></a>.
+<p>Hi, I’m Tess.
 
 <p>Before I took up
 <span title="ha ha only serious">arguing with people on the internet for a living</span>
-I built websites. You can read more about me on <a href=http://tess.oconnor.cx/>mine</a>.
+I built websites.<br>
+You can read more about me on <a href=http://tess.oconnor.cx/ rel=me>mine</a>.
